@@ -23,7 +23,8 @@
       max-width: 1100px;
       margin: auto;
       display: flex;
-      justify-content: center;
+      justify-content: flex-start; /* LEFT */
+      padding-left: 30px;
     }
 
     .nav-links {
@@ -61,12 +62,12 @@
 
     .intro p {
       max-width: 900px;
-      margin: 0 auto 20px;
+      margin: 0 auto 18px;
       line-height: 1.6;
       font-size: 16px;
     }
 
-    /* TEAM CARDS */
+    /* TEAM GRID */
     .team-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -123,6 +124,7 @@
       margin-top: 70px;
       padding-top: 40px;
       border-top: 1px solid #e5e7eb;
+      text-align: center;
     }
 
     .join p {
@@ -149,7 +151,7 @@
 
 <body>
 
-<!-- NAVBAR (LOGO REMOVED) -->
+<!-- NAVBAR -->
 <header class="navbar">
   <div class="nav-container">
     <ul class="nav-links">
@@ -215,7 +217,7 @@
     </p>
   </div>
 
-  <!-- JOIN -->
+  <!-- JOIN TEAM -->
   <div class="join">
     <h2>Join the Team</h2>
     <p>
